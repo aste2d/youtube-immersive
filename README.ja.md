@@ -123,3 +123,5 @@ Copyright © 2025 aste2d
 This project is licensed under the Apache License, Version 2.0. 
 
 See the LICENSE file for details. 
+
+このプロジェクトを気に入っていただけたら、[コーヒーを一杯おごって](https://afdian.com/a/aste2d/plan)開発を応援していただけるとうれしいです。

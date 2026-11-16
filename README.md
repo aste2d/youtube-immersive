@@ -129,3 +129,5 @@ Copyright © 2025 aste2d
 This project is licensed under the Apache License, Version 2.0.
 
 See the LICENSE file for details.
+
+Enjoy this project? [Buy me a coffee](https://afdian.com/a/aste2d/plan) to support its maintenance.
