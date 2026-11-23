@@ -3,44 +3,23 @@
 
   <p><strong><a href="README.md">English</a></strong> · <strong><a href="README.zh-CN.md">简体中文</a></strong> · <strong><a href="README.zh-TW.md">繁體中文</a></strong> · <strong><a href="README.ja.md">日本語</a></strong></p>
 
-  <p><strong><a href="https://chromewebstore.google.com/detail/youtube-immersive/hngegjpdebhohjehhcbkpoaeehbijjbj">Chrome ウェブストアからインストール</a></strong></p>
-
-  <img src="./example.png"
-       alt="YouTube Immersive Player – デモ"
-       width="800"
-       style="max-width:100%; height:auto;">
-  <br>
   <em>YouTube の画面をすっきりさせ、動画に集中しやすくする Chrome 拡張機能です。</em>
 </div>
 
-<br><br>
-
-### 特長
-
-- メイン動画を**中央配置**、フェードイン表示  
-- レイアウトのガタつきや視覚的ノイズを抑制  
-- **右側ドロワー**におすすめ動画を隠す  
-- **V キー**で右ドロワーを切り替え  
-- 動画を**中クリック**してドロワーを切り替え  
-- 拡張機能のポップアップでショートカットやプレーヤーの動作を設定
-
-### プライバシー
-
-Chrome 拡張機能は YouTube 上でローカルに動作し、設定を端末に保存します。詳しくは[プライバシーポリシー](PRIVACY.md)をご覧ください。
-
 ## インストール
 
-[Chrome ウェブストアのページ](https://chromewebstore.google.com/detail/youtube-immersive/hngegjpdebhohjehhcbkpoaeehbijjbj)を開き、**Chrome に追加**を選びます。インストール後、すでに開いている YouTube のタブを再読み込みしてください。YouTube Immersive のユーザースクリプトをお使いの場合は、二重に動作しないよう、そのスクリプトを無効にしてください。
+[![Chrome ウェブストアからインストール](https://developer.chrome.com/static/docs/webstore/branding/image/206x58-chrome-web-bcb82d15b2486.png)](https://chromewebstore.google.com/detail/youtube-immersive/hngegjpdebhohjehhcbkpoaeehbijjbj)
 
-> インストール後、**[任意の YouTube 動画ページ](https://www.youtube.com/watch?v=az0J8O8wRU8)** を開き、**V** を押してください。  
-> 既定の視聴ページでは、動画を**中クリック**してドロワーを切り替えることもできます。  
-> <mark>縦長レイアウト</mark> を除き、基本的に動作します。
+**Chrome に追加**を選んだら、開いている YouTube のタブを再読み込みしてください。YouTube Immersive のユーザースクリプトをお使いの場合は、二重に動作しないよう、そのスクリプトを無効にしてください。
 
-### ユーザースクリプトを使う場合
+## Chrome ウェブストアからインストールできない場合
 
-[Tampermonkey](https://www.tampermonkey.net/) をお使いの方は、[ユーザースクリプトを直接インストール](https://raw.githubusercontent.com/aste2d/youtube-immersive/main/youtube-immersive-player.user.js)し、Tampermonkey で確認してください。Tampermonkey の設定が必要な場合は、下記のお使いのブラウザの手順をご覧ください。
+[Tampermonkey](https://www.tampermonkey.net/) をお使いの方は、[ユーザースクリプトを直接インストール](https://raw.githubusercontent.com/aste2d/youtube-immersive/main/youtube-immersive-player.user.js)し、Tampermonkey で確認してください。
 
-#### A) Chromium ベースのブラウザ
+<details>
+<summary>ブラウザ別の Tampermonkey 設定手順</summary>
+
+### A) Chromium ベースのブラウザ
 
 （Chrome / Edge / Brave / Opera / Vivaldi）
 
@@ -60,7 +39,7 @@ Chrome 拡張機能は YouTube 上でローカルに動作し、設定を端末�
 
 <br><br>
 
-#### B) 🦊 Firefox
+### B) 🦊 Firefox
 
 > まず **[Tampermonkey](https://www.tampermonkey.net/)** をインストールしてください。  
 > **[Firefox アドオンの Tampermonkey](https://addons.mozilla.org/firefox/addon/tampermonkey/)** から入手できます。
@@ -72,7 +51,7 @@ Chrome 拡張機能は YouTube 上でローカルに動作し、設定を端末�
 
 <br><br>
 
-#### C)  macOS / iOS の Safari
+### C)  macOS / iOS の Safari
 
 > まず **[Tampermonkey](https://www.tampermonkey.net/)**（または他のユーザースクリプトマネージャ）をインストールしてください。  
 > **[App Store の Tampermonkey](https://apps.apple.com/us/app/tampermonkey/id6738342400)** から入手できます。
@@ -83,17 +62,37 @@ Chrome 拡張機能は YouTube 上でローカルに動作し、設定を端末�
 2. **iOS/iPadOS Safari：** 設定アプリ → **Safari** → **機能拡張** → **Tampermonkey** を有効化し、Web サイトアクセスを許可  
 3. **[このリンクからスクリプトをインストール](https://raw.githubusercontent.com/aste2d/youtube-immersive/main/youtube-immersive-player.user.js)** し、Tampermonkey で確認します。
 
-<br><br><br>
+</details>
 
----
+<div align="center">
+  <img src="./example.png"
+       alt="YouTube Immersive Player – デモ"
+       width="800"
+       style="max-width:100%; height:auto;">
+</div>
 
-<br>
+## 特長
 
-### 設定
+- メイン動画を**中央配置**、フェードイン表示
+- レイアウトのガタつきや視覚的ノイズを抑制
+- **右側ドロワー**におすすめ動画を隠す
+- **V キー**で右ドロワーを切り替え
+- 動画を**中クリック**してドロワーを切り替え
+- 拡張機能のポップアップでショートカットやプレーヤーの動作を設定
+
+> インストール後、**[任意の YouTube 動画ページ](https://www.youtube.com/watch?v=az0J8O8wRU8)** を開き、**V** を押してください。<br>
+> 既定の視聴ページでは、動画を**中クリック**してドロワーを切り替えることもできます。<br>
+> <mark>縦長レイアウト</mark> を除き、基本的に動作します。
+
+## プライバシー
+
+Chrome 拡張機能は YouTube 上でローカルに動作し、設定を端末に保存します。詳しくは[プライバシーポリシー](PRIVACY.md)をご覧ください。
+
+## 設定
 
 Chrome のツールバーにある YouTube Immersive のアイコンをクリックすると、ショートカットやプレーヤーの動作を変更できます。ユーザースクリプトの設定はスクリプト内の設定欄にあります。
 
-### 互換性
+## 互換性
 
 - ストア版は**パソコン版 Chrome**向けです。ユーザースクリプトには対応するスクリプトマネージャーが必要です。
 - ユーザースクリプトは Chrome で動作を確認しています。他のモダンブラウザでも使用できる場合があります。
@@ -101,7 +100,7 @@ Chrome のツールバーにある YouTube Immersive のアイコンをクリッ
 - 縦長レイアウトは**対象外**  
 - 全画面での「上方向スワイプ」は **YouTube のネイティブ機能**（本スクリプトの動作ではありません）
 
-### リンク
+## リンク
 
 - プロジェクト：**[GitHub Repository](https://github.com/aste2d/youtube-immersive)**
 - 作者：**[aste](https://github.com/aste2d)**  

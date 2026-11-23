@@ -3,45 +3,23 @@
 
   <p><strong><a href="README.md">English</a></strong> · <strong><a href="README.zh-CN.md">简体中文</a></strong> · <strong><a href="README.zh-TW.md">繁體中文</a></strong> · <strong><a href="README.ja.md">日本語</a></strong></p>
 
-  <p><strong><a href="https://chromewebstore.google.com/detail/youtube-immersive/hngegjpdebhohjehhcbkpoaeehbijjbj">Install from the Chrome Web Store</a></strong></p>
-
-  <img src="./example.png"
-       alt="YouTube Immersive Player – demo"
-       width="800"
-       style="max-width:100%; height:auto;">
-  <br>
   <em>A configurable Chrome extension that reduces YouTube’s UI clutter and helps you focus on the content.</em>
 </div>
 
-<br><br>
-
-### Features
-
-- Remove a bunch of visual clutter 
-- **press R** | put shorts in the actual Player
-- **press P** | Easy PiP
-- **press V** | toggle the right feed
-- **middle-click** the video to toggle the feed
-- Customize shortcuts and playback options from the extension popup
-
-
-### Privacy
-
-The Chrome extension runs locally on YouTube and keeps your settings on your device. See the [privacy policy](PRIVACY.md) for details.
-
 ## Install
 
-Open the [Chrome Web Store listing](https://chromewebstore.google.com/detail/youtube-immersive/hngegjpdebhohjehhcbkpoaeehbijjbj) and select **Add to Chrome**. After adding the extension, refresh any open YouTube tabs. If you already use the YouTube Immersive userscript, disable that script to avoid running both copies.
+[![Install from the Chrome Web Store](https://developer.chrome.com/static/docs/webstore/branding/image/206x58-chrome-web-bcb82d15b2486.png)](https://chromewebstore.google.com/detail/youtube-immersive/hngegjpdebhohjehhcbkpoaeehbijjbj)
 
-> After installation, **[go to a YouTube video](https://www.youtube.com/watch?v=az0J8O8wRU8)** and press **V**.  
-> On the default watch page, you can also **middle-click** the video to toggle the drawer.  
-> It should work <mark>**except**</mark> in portrait layouts.
+Select **Add to Chrome**, then refresh any open YouTube tabs. If you already use the YouTube Immersive userscript, disable that script to avoid running both copies.
 
-### Userscript alternative
+## If you can't install from the Chrome Web Store
 
-[Tampermonkey](https://www.tampermonkey.net/) users can [install the userscript directly](https://raw.githubusercontent.com/aste2d/youtube-immersive/main/youtube-immersive-player.user.js) and confirm in Tampermonkey. If you need to set up Tampermonkey first, follow the steps for your browser below.
+[Tampermonkey](https://www.tampermonkey.net/) users can [install the userscript directly](https://raw.githubusercontent.com/aste2d/youtube-immersive/main/youtube-immersive-player.user.js) and confirm in Tampermonkey.
 
-#### A) Chromium-based browsers
+<details>
+<summary>Tampermonkey setup by browser</summary>
+
+### A) Chromium-based browsers
 
 (Chrome / Edge / Brave / Opera / Vivaldi)
 
@@ -65,7 +43,7 @@ Open the [Chrome Web Store listing](https://chromewebstore.google.com/detail/you
 
 <br><br>
 
-#### B) 🦊 Firefox
+### B) 🦊 Firefox
 
 > Make sure **[Tampermonkey](https://www.tampermonkey.net/)** is installed first.  
 > You’ll likely get it from **[Tampermonkey – Get this Extension for Firefox](https://addons.mozilla.org/firefox/addon/tampermonkey/)**
@@ -78,7 +56,7 @@ Open the [Chrome Web Store listing](https://chromewebstore.google.com/detail/you
 
 <br><br>
 
-#### C)  macOS / iOS Safari
+### C)  macOS / iOS Safari
 
 > Make sure **[Tampermonkey](https://www.tampermonkey.net/)** (or another userscript manager) is installed **first**.  
 > You’ll likely get it from **[Tampermonkey on the App Store](https://apps.apple.com/us/app/tampermonkey/id6738342400)**
@@ -89,17 +67,37 @@ Open the [Chrome Web Store listing](https://chromewebstore.google.com/detail/you
 2. **iOS/iPadOS Safari:** Settings app → **Safari** → **Extensions** → Enable **Tampermonkey** and allow Website Access  
 3. **[Open this link to install the userscript](https://raw.githubusercontent.com/aste2d/youtube-immersive/main/youtube-immersive-player.user.js)** and confirm in Tampermonkey.
 
-<br><br><br>
+</details>
 
----
+<div align="center">
+  <img src="./example.png"
+       alt="YouTube Immersive Player – demo"
+       width="800"
+       style="max-width:100%; height:auto;">
+</div>
 
-<br>
+## Features
 
-### Configuration
+- Remove a bunch of visual clutter
+- **press R** | put shorts in the actual Player
+- **press P** | Easy PiP
+- **press V** | toggle the right feed
+- **middle-click** the video to toggle the feed
+- Customize shortcuts and playback options from the extension popup
+
+> After installation, **[go to a YouTube video](https://www.youtube.com/watch?v=az0J8O8wRU8)** and press **V**.<br>
+> On the default watch page, you can also **middle-click** the video to toggle the drawer.<br>
+> It should work <mark>**except**</mark> in portrait layouts.
+
+## Privacy
+
+The Chrome extension runs locally on YouTube and keeps your settings on your device. See the [privacy policy](PRIVACY.md) for details.
+
+## Configuration
 
 Click the YouTube Immersive icon in Chrome’s toolbar to change shortcuts and player options. Userscript settings are in the script’s configuration section.
 
-### Compatibility
+## Compatibility
 
 - **Desktop Chrome** for the store extension. The userscript requires a compatible userscript manager.
 - The userscript has been tested on Chrome and may also work in other modern browsers.
@@ -107,7 +105,7 @@ Click the YouTube Immersive icon in Chrome’s toolbar to change shortcuts and p
 - Portrait layouts are intentionally out of scope  
 - Fullscreen “swipe up” is a **YouTube-native** behavior (not part of the script)
 
-### Links
+## Links
 
 - Project home: **[GitHub Repository](https://github.com/aste2d/youtube-immersive)**
 - Author: **[aste](https://github.com/aste2d)**  

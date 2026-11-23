@@ -3,44 +3,23 @@
 
   <p><strong><a href="README.md">English</a></strong> · <strong><a href="README.zh-CN.md">简体中文</a></strong> · <strong><a href="README.zh-TW.md">繁體中文</a></strong> · <strong><a href="README.ja.md">日本語</a></strong></p>
 
-  <p><strong><a href="https://chromewebstore.google.com/detail/youtube-immersive/hngegjpdebhohjehhcbkpoaeehbijjbj">從 Chrome 線上應用程式商店安裝</a></strong></p>
-
-  <img src="./example.png"
-       alt="YouTube Immersive Player – 範例"
-       width="800"
-       style="max-width:100%; height:auto;">
-  <br>
   <em>可自訂的 Chrome 擴充功能，減少 YouTube 介面干擾，讓你專注觀看內容。</em>
 </div>
 
-<br><br>
-
-### 功能
-
-- 主影片**置中**，並有淡入效果  
-- 避免版面抖動與視覺雜訊  
-- 在**右側抽屜**隱藏推薦影片  
-- **按下 V** 切換右側抽屜  
-- **滑鼠中鍵點擊影片**可切換抽屜  
-- 可在擴充功能的彈出視窗中自訂快速鍵和播放器選項
-
-### 隱私
-
-Chrome 擴充功能在 YouTube 頁面上於本機執行，設定保存在你的裝置上。詳見[隱私權政策](PRIVACY.md)。
-
 ## 安裝
 
-開啟 [Chrome 線上應用程式商店頁面](https://chromewebstore.google.com/detail/youtube-immersive/hngegjpdebhohjehhcbkpoaeehbijjbj)，按一下**加到 Chrome**。安裝後請重新整理已開啟的 YouTube 分頁。如果已在使用 YouTube Immersive 使用者腳本，請停用該腳本，以免重複執行。
+[![從 Chrome 線上應用程式商店安裝](https://developer.chrome.com/static/docs/webstore/branding/image/206x58-chrome-web-bcb82d15b2486.png)](https://chromewebstore.google.com/detail/youtube-immersive/hngegjpdebhohjehhcbkpoaeehbijjbj)
 
-> 安裝後，**[前往任一 YouTube 影片](https://www.youtube.com/watch?v=az0J8O8wRU8)** 並按 **V**。  
-> 在預設觀看頁，你也可以**中鍵點擊影片**來切換抽屜。  
-> 除了 <mark>直向版面</mark> 外皆可正常運作。
+按一下**加到 Chrome**，再重新整理已開啟的 YouTube 分頁。如果已在使用 YouTube Immersive 使用者腳本，請停用該腳本，以免重複執行。
 
-### 其他安裝方式：使用者腳本
+## 如果無法從 Chrome 線上應用程式商店安裝
 
-已安裝 [Tampermonkey](https://www.tampermonkey.net/) 的使用者可[直接安裝使用者腳本](https://raw.githubusercontent.com/aste2d/youtube-immersive/main/youtube-immersive-player.user.js)，並在 Tampermonkey 中確認。如果需要先設定 Tampermonkey，請依照下方對應瀏覽器的步驟操作。
+已安裝 [Tampermonkey](https://www.tampermonkey.net/) 的使用者可[直接安裝使用者腳本](https://raw.githubusercontent.com/aste2d/youtube-immersive/main/youtube-immersive-player.user.js)，並在 Tampermonkey 中確認。
 
-#### A) Chromium 系列瀏覽器
+<details>
+<summary>查看各瀏覽器的 Tampermonkey 設定步驟</summary>
+
+### A) Chromium 系列瀏覽器
 
 （Chrome / Edge / Brave / Opera / Vivaldi）
 
@@ -60,7 +39,7 @@ Chrome 擴充功能在 YouTube 頁面上於本機執行，設定保存在你的�
 
 <br><br>
 
-#### B) 🦊 Firefox
+### B) 🦊 Firefox
 
 > 請先安裝 **[Tampermonkey](https://www.tampermonkey.net/)**。  
 > 可從 **[Firefox 附加元件商店的 Tampermonkey](https://addons.mozilla.org/firefox/addon/tampermonkey/)** 取得。
@@ -72,7 +51,7 @@ Chrome 擴充功能在 YouTube 頁面上於本機執行，設定保存在你的�
 
 <br><br>
 
-#### C)  macOS / iOS 的 Safari
+### C)  macOS / iOS 的 Safari
 
 > 請先安裝 **[Tampermonkey](https://www.tampermonkey.net/)**（或其他使用者腳本管理器）。  
 > 可從 **[App Store 的 Tampermonkey](https://apps.apple.com/us/app/tampermonkey/id6738342400)** 取得。
@@ -83,17 +62,37 @@ Chrome 擴充功能在 YouTube 頁面上於本機執行，設定保存在你的�
 2. **iOS/iPadOS Safari：** 設定 app → **Safari** → **擴充功能** → 啟用 **Tampermonkey** 並允許網站存取  
 3. **[開啟此連結安裝腳本](https://raw.githubusercontent.com/aste2d/youtube-immersive/main/youtube-immersive-player.user.js)** 並在 Tampermonkey 中確認。
 
-<br><br><br>
+</details>
 
----
+<div align="center">
+  <img src="./example.png"
+       alt="YouTube Immersive Player – 範例"
+       width="800"
+       style="max-width:100%; height:auto;">
+</div>
 
-<br>
+## 功能
 
-### 設定
+- 主影片**置中**，並有淡入效果
+- 避免版面抖動與視覺雜訊
+- 在**右側抽屜**隱藏推薦影片
+- **按下 V** 切換右側抽屜
+- **滑鼠中鍵點擊影片**可切換抽屜
+- 可在擴充功能的彈出視窗中自訂快速鍵和播放器選項
+
+> 安裝後，**[前往任一 YouTube 影片](https://www.youtube.com/watch?v=az0J8O8wRU8)** 並按 **V**。<br>
+> 在預設觀看頁，你也可以**中鍵點擊影片**來切換抽屜。<br>
+> 除了 <mark>直向版面</mark> 外皆可正常運作。
+
+## 隱私
+
+Chrome 擴充功能在 YouTube 頁面上於本機執行，設定保存在你的裝置上。詳見[隱私權政策](PRIVACY.md)。
+
+## 設定
 
 按一下 Chrome 工具列中的 YouTube Immersive 圖示，即可變更快速鍵和播放器選項。使用者腳本的設定在腳本的設定區段。
 
-### 相容性
+## 相容性
 
 - 商店版適用於**電腦版 Chrome**。使用者腳本需要相容的腳本管理器。
 - 使用者腳本已在 Chrome 測試，也可在其他現代瀏覽器嘗試使用。
@@ -101,7 +100,7 @@ Chrome 擴充功能在 YouTube 頁面上於本機執行，設定保存在你的�
 - 直向版面**不在腳本支援範圍**  
 - 全螢幕的「上滑」是 **YouTube 原生行為**（非腳本功能）
 
-### 連結
+## 連結
 
 - 專案首頁：**[GitHub Repository](https://github.com/aste2d/youtube-immersive)**
 - 作者：**[aste](https://github.com/aste2d)**  
