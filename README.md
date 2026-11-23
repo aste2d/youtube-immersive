@@ -6,6 +6,13 @@
   <em>A configurable Chrome extension that reduces YouTube’s UI clutter and helps you focus on the content.</em>
 </div>
 
+<div align="center">
+  <img src="./example.png"
+       alt="YouTube Immersive Player – demo"
+       width="800"
+       style="max-width:100%; height:auto;">
+</div>
+
 ## Install
 
 [![Install from the Chrome Web Store](https://developer.chrome.com/static/docs/webstore/branding/image/206x58-chrome-web-bcb82d15b2486.png)](https://chromewebstore.google.com/detail/youtube-immersive/hngegjpdebhohjehhcbkpoaeehbijjbj)
@@ -68,13 +75,6 @@ Select **Add to Chrome**, then refresh any open YouTube tabs. If you already use
 3. **[Open this link to install the userscript](https://raw.githubusercontent.com/aste2d/youtube-immersive/main/youtube-immersive-player.user.js)** and confirm in Tampermonkey.
 
 </details>
-
-<div align="center">
-  <img src="./example.png"
-       alt="YouTube Immersive Player – demo"
-       width="800"
-       style="max-width:100%; height:auto;">
-</div>
 
 ## Features
 

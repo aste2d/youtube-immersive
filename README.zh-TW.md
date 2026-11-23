@@ -6,6 +6,13 @@
   <em>可自訂的 Chrome 擴充功能，減少 YouTube 介面干擾，讓你專注觀看內容。</em>
 </div>
 
+<div align="center">
+  <img src="./example.png"
+       alt="YouTube Immersive Player – 範例"
+       width="800"
+       style="max-width:100%; height:auto;">
+</div>
+
 ## 安裝
 
 [![從 Chrome 線上應用程式商店安裝](https://developer.chrome.com/static/docs/webstore/branding/image/206x58-chrome-web-bcb82d15b2486.png)](https://chromewebstore.google.com/detail/youtube-immersive/hngegjpdebhohjehhcbkpoaeehbijjbj)
@@ -63,13 +70,6 @@
 3. **[開啟此連結安裝腳本](https://raw.githubusercontent.com/aste2d/youtube-immersive/main/youtube-immersive-player.user.js)** 並在 Tampermonkey 中確認。
 
 </details>
-
-<div align="center">
-  <img src="./example.png"
-       alt="YouTube Immersive Player – 範例"
-       width="800"
-       style="max-width:100%; height:auto;">
-</div>
 
 ## 功能
 

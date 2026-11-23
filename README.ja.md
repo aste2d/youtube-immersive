@@ -6,6 +6,13 @@
   <em>YouTube の画面をすっきりさせ、動画に集中しやすくする Chrome 拡張機能です。</em>
 </div>
 
+<div align="center">
+  <img src="./example.png"
+       alt="YouTube Immersive Player – デモ"
+       width="800"
+       style="max-width:100%; height:auto;">
+</div>
+
 ## インストール
 
 [![Chrome ウェブストアからインストール](https://developer.chrome.com/static/docs/webstore/branding/image/206x58-chrome-web-bcb82d15b2486.png)](https://chromewebstore.google.com/detail/youtube-immersive/hngegjpdebhohjehhcbkpoaeehbijjbj)
@@ -63,13 +70,6 @@
 3. **[このリンクからスクリプトをインストール](https://raw.githubusercontent.com/aste2d/youtube-immersive/main/youtube-immersive-player.user.js)** し、Tampermonkey で確認します。
 
 </details>
-
-<div align="center">
-  <img src="./example.png"
-       alt="YouTube Immersive Player – デモ"
-       width="800"
-       style="max-width:100%; height:auto;">
-</div>
 
 ## 特長
 

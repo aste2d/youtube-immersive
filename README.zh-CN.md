@@ -6,6 +6,13 @@
   <em>一个可配置的 Chrome 扩展，减少 YouTube 界面干扰，帮你专注观看内容。</em>
 </div>
 
+<div align="center">
+  <img src="./example.png"
+       alt="YouTube Immersive Player – 示例"
+       width="800"
+       style="max-width:100%; height:auto;">
+</div>
+
 ## 安装
 
 [![从 Chrome 应用商店安装](https://developer.chrome.com/static/docs/webstore/branding/image/206x58-chrome-web-bcb82d15b2486.png)](https://chromewebstore.google.com/detail/youtube-immersive/hngegjpdebhohjehhcbkpoaeehbijjbj)
@@ -63,13 +70,6 @@
 3. **[打开此链接安装脚本](https://raw.githubusercontent.com/aste2d/youtube-immersive/main/youtube-immersive-player.user.js)** 并在 Tampermonkey 中确认。
 
 </details>
-
-<div align="center">
-  <img src="./example.png"
-       alt="YouTube Immersive Player – 示例"
-       width="800"
-       style="max-width:100%; height:auto;">
-</div>
 
 ## 功能
 
